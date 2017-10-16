@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing Page _ Assignment_3
+Client: Relaxr
+Author: Jeff Pfeiffer
+Developer @GA in LA
 */
 
 
@@ -45,11 +45,27 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-body {
+body {background-color:#606161;
+      color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+
+.main {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     border: 1px solid black;
+     background-color:#f0efef;
+     height: 1200px;
+     width: 960px;
+     margin-left: 200px;
+
 }
 
 
@@ -58,22 +74,124 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+
+
+
+h1 {font-size: 34px;
+  font-family:'Open Sans', sans-serif, bold
+}
+
+h2 {font-size: 32px;
+  padding-left: 78px;
+  color: #033048;
+}
+
+em {font-size: 21px;
+    color: #033048;
+
+}
+
+h4 {font-size: 32px;
+  padding-left: 78px;
+  color: #033048
+} 
+
+.container {
   width: 960px;
-  margin: auto;
+  background-color: #033048;
+  border: 2px solid black;
+  color: white;
+  font-size: 15px;
+  float: center;
 }
 
-header {
+.container2 {padding-right: 43px;
+
 
 }
 
-footer {
+blockquote {padding-right: 67px;
+  padding-left: 67px;
+  text-align: justify;
+
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.container2A {padding-bottom: 98px;
+
+}
+
+.headingtags { color: #f9e42e;
+  padding-left: 500px;
+  font-size: 23px;
+  font-style: bold;
+
+}
+
+
+.pic1 {height: 230px
+  width: 260px;
+ margin-left: 34px;
+
+
+}
+
+.pic2 {margin-left: 34px;
+
+}
+
+article {color: #f9e42e;
+  font-weight: bold 900 24px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: black;
+  width: 960px;
+  height: 167px;
+  margin-left: 200px;
+  padding-top: 34px;
+}
+
+aside {margin-left: 860px;
+  border: 0px solid black;
+  font-size: 12px;
+  margin-top: 78px;
+  color: #033048;
+
+}
+
+
+
+.pics {text-align: center;
+  padding-right: 15px;
+
+}
+
+footer {font-size: 12px;
+  text-align: center;
+ }
+
+ .lowercontainer {text-align: center;
+
+ }
+
+.signup {
+color: white;
+text-align: center;
+border: 2px solid black;
+margin-left: 567px;
+margin-right: 567px;
+background-color: #033048;
+}
+
+.yellowband {border: 2px solid yellow
+  background-color: #f9e42e;
+
+
+} 
+
+
+
 
 
 
